@@ -1,0 +1,23 @@
+# FastAPI WebSocket Chat Lab Dependencies
+# Core FastAPI dependencies
+fastapi==0.116.2
+uvicorn==0.35.0
+python-multipart==0.0.20
+python-jose==3.5.0
+
+# Testing dependencies
+pytest==8.4.2
+pytest-asyncio==1.2.0
+pytest-timeout==2.3.1
+httpx==0.28.1
+
+# Additional dependencies for the lab
+starlette==0.48.0
+websockets==15.0.1
+anyio==4.10.0
+
+# Database dependencies
+sqlalchemy==2.0.36
+alembic==1.14.0
+bcrypt==4.2.1
+email-validator==2.3.0
